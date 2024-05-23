@@ -1,0 +1,67 @@
+.three-block {
+    display: flex;
+
+    .left-block {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        padding: 100px;
+
+        .text-block {
+            display: flex;
+            flex-direction: column;
+            color: white;
+            align-items: flex-start;
+            gap: 10px;
+
+            .button {
+                background: white;
+                padding: 7px 10px;
+                display: flex;
+                border-radius: 30px;
+                gap: 12px;
+                align-items: center;
+                margin-top: 10px;
+
+                p {
+                    color: black !important;
+                }
+
+                .circle {
+                    width: 32px;
+                    height: 32px;
+                    background-color: black;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+
+    .right-block {
+        width: 50%;
+        position: relative;
+
+        .bg-image {
+            width: 100%;
+            height: 100%;
+        }
+
+        .links {
+            position: absolute;
+            color: white;
+            top: 93%;
+            left: 74%;
+            transform: translate(-50%, -50%);
+            gap: 15px;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+    
+            .single-link {
+                display: flex;
+                gap: 5px;
+                align-items: center;
+            }
+        }
+    }
+}

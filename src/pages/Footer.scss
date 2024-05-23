@@ -1,0 +1,106 @@
+.footer {
+    margin-top: 100px;
+    color: white;
+
+    .logo {
+        p {
+            color: #C0C0C0;
+            font-size: 13px;
+            margin-top: 15px;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        margin-right: 25px;
+        cursor: pointer;
+    }
+
+    .content {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 100px;
+        width: 85%;
+        margin: 100px auto;
+    }
+
+    .footer-first_block {
+        .right-side {
+            display: flex;
+            gap: 50px;
+
+            p {
+                font-size: 20px;
+                color: #C0C0C0;
+            }
+
+            a {
+                font-size: 14px;
+            }
+
+            .first-block {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                gap: 15px;
+            }
+
+            .second-block {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                gap: 15px;
+            }
+        }
+    }
+
+    .footer-second_block {
+        border-bottom: 3px solid white;
+        border-top: 3px solid white;
+        padding: 100px;
+        width: 85%;
+        margin: 0px auto;
+
+        .right-side {
+            width: 31%;
+
+            label {
+                position: relative;
+
+                input {
+                    border: none !important;
+                    border-radius: 30px;
+                    padding: 15px 30px;
+                    width: 100%;
+                }
+
+                button {
+                    border: none;
+                    position: absolute;
+                    background-color: black !important;
+                    color: white;
+                    padding: 9px 15px;
+                    border-radius: 15px;
+                    top: 50%;
+                    left: 90%;
+                    transform: translate(-50%, -50%);
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .footer-third_block {
+        .links {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+
+            img {
+                cursor: pointer;
+            }
+        }
+    }
+
+}

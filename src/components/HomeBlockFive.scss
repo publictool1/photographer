@@ -1,0 +1,26 @@
+.container-five {
+    padding: 100px;
+    display: flex;
+    // gap: 10px;
+    flex-direction: column;
+
+    h1 {
+        text-align: center;
+        font-size: 40px;
+        color: white;
+    }
+
+    p {
+        text-align: center;
+        color: #C0C0C0;
+        font-size: 24px;    
+    }
+
+    .images {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        justify-content: space-between;
+        margin-top: 100px;
+    }
+}

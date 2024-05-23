@@ -1,0 +1,111 @@
+.container-second {
+    background-image: url('../../public/images/bg2.png');
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+
+    .costa {
+        width: 65px;
+    }
+
+    .text {
+        position: absolute;
+        top: 50%;
+        left: 85%;
+        transform: translate(-50%, -50%);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .links {
+        position: absolute;
+        color: white;
+        top: 93%;
+        left: 85%;
+        transform: translate(-50%, -50%);
+        gap: 15px;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+
+        .single-link {
+            display: flex;
+            gap: 5px;
+            align-items: center;
+        }
+    }
+}
+
+.container-four {
+    background-image: url('../../public/images/bg3.png');
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+
+    .text {
+        position: absolute;
+        top: 50%;
+        left: 85%;
+        transform: translate(-50%, -50%);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .links {
+        position: absolute;
+        color: white;
+        top: 93%;
+        left: 85%;
+        transform: translate(-50%, -50%);
+        gap: 15px;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+
+        .single-link {
+            display: flex;
+            gap: 5px;
+            align-items: center;
+        }
+    }
+}
+
+.container-six {
+    background-image: url('../../public/images/bg4.png');
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+
+    .text {
+        position: absolute;
+        top: 50%;
+        left: 85%;
+        transform: translate(-50%, -50%);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .links {
+        position: absolute;
+        color: white;
+        top: 93%;
+        left: 85%;
+        transform: translate(-50%, -50%);
+        gap: 15px;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+
+        .single-link {
+            display: flex;
+            gap: 5px;
+            align-items: center;
+        }
+    }
+}

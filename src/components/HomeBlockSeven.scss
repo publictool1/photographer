@@ -1,0 +1,53 @@
+.container-seven {
+    padding: 100px;
+
+
+    .text-card {
+        text-align: center;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+        .button-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .button {
+            background: white;
+            padding: 7px 10px;
+            display: flex;
+            border-radius: 30px;
+            gap: 12px;
+            align-items: center;
+            width: 13%;
+
+            p {
+                color: black !important;
+                font-size: 16px;
+            }
+
+            .circle {
+                width: 32px;
+                height: 32px;
+                background-color: black;
+                border-radius: 50%;
+            }
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 40px;
+            color: white;
+        }
+    
+        p {
+            text-align: center;
+            color: #C0C0C0;
+            font-size: 24px;
+        }
+    
+    }
+}
